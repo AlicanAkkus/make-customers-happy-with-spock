@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.happy.customer.OrderCommissionCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-04T19:17:55" hostname="Alican-MacBook-Pro.local" time="0.118">
-  <properties/>
-  <testcase name="should calculate card payment order commission" classname="io.happy.customer.OrderCommissionCalculatorTest" time="0.118"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
