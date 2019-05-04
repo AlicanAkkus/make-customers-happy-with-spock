@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.happy.customer.OrderCreateFacadeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-04T19:52:18" hostname="Alican-MacBook-Pro.local" time="0.848">
-  <properties/>
-  <testcase name="should create order and verify interactions" classname="io.happy.customer.OrderCreateFacadeTest" time="0.848"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

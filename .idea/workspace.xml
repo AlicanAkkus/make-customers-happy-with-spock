@@ -23,6 +23,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -37,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCreateFacadeTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="350">
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -116,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OrderCreateFacadeTest.should create order">
+  <component name="RunManager" selected="Gradle.OrderCreateFacadeTest.should not create order">
     <configuration name="OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,12 +167,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OrderCommissionCalculatorTest.should calculate order commission amount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OrderCreateFacadeTest.should create order and verify interactions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.happy.customer.OrderCommissionCalculatorTest.should calculate order commission amount&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.happy.customer.OrderCreateFacadeTest.should create order and verify interactions&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,12 +207,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="OrderCreateFacadeTest.should not create order" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.happy.customer.OrderCreateFacadeTest.should not create order&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderCreateFacadeTest.should not create order" />
+        <item itemvalue="Gradle.OrderCreateFacadeTest.should create order and verify interactions" />
         <item itemvalue="Gradle.OrderCreateFacadeTest.should create order" />
         <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate card payment order commission" />
         <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price" />
-        <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate order commission amount" />
       </list>
     </recent_temporary>
   </component>
@@ -216,17 +247,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556994895597</updated>
-      <workItem from="1556994899166" duration="3030000" />
+      <workItem from="1556994899166" duration="3307000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderCommissionCalculatorTest_should_calculate_order_commission_amount - 2019.05.04 at 21h 50m 59s.xml">
-      <configuration name="OrderCommissionCalculatorTest.should calculate order commission amount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="OrderCommissionCalculatorTest_should_calculate_order_commission_amount - 2019.05.04 at 21h 51m 51s.xml">
-      <configuration name="OrderCommissionCalculatorTest.should calculate order commission amount" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="OrderCommissionCalculatorTest_should_calculate_order_commission_amount - 2019.05.04 at 21h 56m 59s.xml">
       <configuration name="OrderCommissionCalculatorTest.should calculate order commission amount" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -251,9 +276,15 @@
     <history-entry file="OrderCreateFacadeTest_should_create_order - 2019.05.04 at 22h 42m 03s.xml">
       <configuration name="OrderCreateFacadeTest.should create order" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="OrderCreateFacadeTest_should_create_order_and_verify_interactions - 2019.05.04 at 22h 52m 19s.xml">
+      <configuration name="OrderCreateFacadeTest.should create order and verify interactions" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OrderCreateFacadeTest_should_not_create_order - 2019.05.04 at 22h 58m 27s.xml">
+      <configuration name="OrderCreateFacadeTest.should not create order" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3030000" />
+    <option name="totallyTimeSpent" value="3307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -262,18 +293,18 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32971996" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32971996" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Build" weight="0.2872629" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32971996" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971996" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCreateFacadeTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="350">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
         </state>
       </provider>
     </entry>

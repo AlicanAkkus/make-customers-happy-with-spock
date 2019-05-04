@@ -51,4 +51,22 @@ class OrderCreateFacadeTest extends Specification {
             it.orderCreatedDate.toLocalDate()
         }
     }
+
+    void "should not create order when price is zero"() {
+        given:
+        def userId = 998
+        def paymentMethod = "CARD"
+        def price = 0
+
+        and:
+        1 * orderCommissionCalculator.calculate("CARD", 0) >> { throw new Exception("price could not be zero") }
+        0 * _._
+
+        when:
+        orderCreateFacade.create(userId, paymentMethod, price)
+
+        then:
+        def e = thrown(Exception)
+        e.message == "price could not be zero"
+    }
 }
