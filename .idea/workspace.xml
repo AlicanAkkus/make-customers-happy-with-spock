@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73a7adb8-8db6-4f27-9cd9-0b80f0874bd8" name="Default Changelist" comment="" />
+    <list default="true" id="73a7adb8-8db6-4f27-9cd9-0b80f0874bd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/io/happy/customer/OrderCommissionCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/test/io/happy/customer/OrderCommissionCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/io.happy.customer.OrderCommissionCalculatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/io.happy.customer.OrderCommissionCalculatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/io.happy.customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/io.happy.customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-io.happy.customer.OrderCommissionCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-io.happy.customer.OrderCommissionCalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCommissionCalculatorTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCommissionCalculatorTest.groovy" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -35,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCommissionCalculatorTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#27#58#0" expanded="true" />
               </folding>
@@ -60,6 +75,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,6 +91,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,6 +130,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -133,13 +153,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price">
+  <component name="RunManager" selected="Gradle.OrderCommissionCalculatorTest.should calculate card payment order commission">
     <configuration name="OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.happy.customer.OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderCommissionCalculatorTest.should calculate card payment order commission" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.happy.customer.OrderCommissionCalculatorTest.should calculate card payment order commission&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -176,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate card payment order commission" />
         <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price" />
         <item itemvalue="Gradle.OrderCommissionCalculatorTest.should calculate order commission amount" />
       </list>
@@ -191,7 +232,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556994895597</updated>
-      <workItem from="1556994899166" duration="1300000" />
+      <workItem from="1556994899166" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -220,13 +261,18 @@
     <history-entry file="OrderCommissionCalculatorTest_should_calculate_order_commission_amount - 2019.05.04 at 21h 56m 59s.xml">
       <configuration name="OrderCommissionCalculatorTest.should calculate order commission amount" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="OrderCommissionCalculatorTest_should_calculate_#paymentType_order_commission_as_#expectedAmount_when_price_is_#price - 2019.05.04 at 21h 59m 13s.xml">
+      <configuration name="OrderCommissionCalculatorTest.should calculate #paymentType order commission as #expectedAmount when price is #price" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OrderCommissionCalculatorTest_should_calculate_card_payment_order_commission - 2019.05.04 at 22h 17m 56s.xml">
+      <configuration name="OrderCommissionCalculatorTest.should calculate card payment order commission" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1300000" />
+    <option name="totallyTimeSpent" value="1684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
@@ -236,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32971996" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Build" weight="0.2872629" />
@@ -301,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/io/happy/customer/OrderCommissionCalculatorTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#27#58#0" expanded="true" />
           </folding>

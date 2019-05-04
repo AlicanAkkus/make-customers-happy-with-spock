@@ -18,4 +18,16 @@ class OrderCommissionCalculatorTest extends Specification {
         "CARD"      | 80    | 1.84
         "CASH"      | 100   | 2.0
     }
+
+    void "should calculate card payment order commission"() {
+        given: "given by card payment and price is 100"
+        def paymentType = "CARD"
+        def price = 100
+
+        when: "when calculate card payment commission"
+        def commissionAmount = orderCommissionCalculator.calculate(paymentType, price)
+
+        then: "commission should equal to 2.3"
+        commissionAmount == 2.3
+    }
 }
