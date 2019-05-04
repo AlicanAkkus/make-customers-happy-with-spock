@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.happy.customer.OrderCreateFacadeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-05-04T19:42:02" hostname="Alican-MacBook-Pro.local" time="0.549">
+<testsuite name="io.happy.customer.OrderCreateFacadeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-04T19:52:18" hostname="Alican-MacBook-Pro.local" time="0.848">
   <properties/>
-  <testcase name="should create order" classname="io.happy.customer.OrderCreateFacadeTest" time="0.549">
-    <failure message="Too few invocations for:&#10;&#10;2 * orderCommissionCalculator.calculate(&quot;CARD&quot;, 100) &gt;&gt; 2.3   (1 invocation)&#10;&#10;Unmatched invocations (ordered by similarity):&#10;&#10;None&#10;&#10;" type="org.spockframework.mock.TooFewInvocationsError">Too few invocations for:
-
-2 * orderCommissionCalculator.calculate(&quot;CARD&quot;, 100) &gt;&gt; 2.3   (1 invocation)
-
-Unmatched invocations (ordered by similarity):
-
-None
-
-
-	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:98)
-	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:77)
-	at io.happy.customer.OrderCreateFacadeTest.should create order(OrderCreateFacadeTest.groovy:23)
-</failure>
-  </testcase>
+  <testcase name="should create order and verify interactions" classname="io.happy.customer.OrderCreateFacadeTest" time="0.848"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
