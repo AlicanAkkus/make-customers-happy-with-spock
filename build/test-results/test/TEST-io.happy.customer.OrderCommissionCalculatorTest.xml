@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.happy.customer.OrderCommissionCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-04T18:59:13" hostname="Alican-MacBook-Pro.local" time="0.053">
+  <properties/>
+  <testcase name="should calculate CARD order commission as 2.3 when price is 100" classname="io.happy.customer.OrderCommissionCalculatorTest" time="0.05"/>
+  <testcase name="should calculate CARD order commission as 1.84 when price is 80" classname="io.happy.customer.OrderCommissionCalculatorTest" time="0.0"/>
+  <testcase name="should calculate CASH order commission as 2.0 when price is 100" classname="io.happy.customer.OrderCommissionCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
