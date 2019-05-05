@@ -13,10 +13,10 @@ class OrderCommissionCalculatorTest extends Specification {
         expectedAmount == orderCommissionCalculator.calculate(paymentType, price)
 
         where:
-        paymentType | price | expectedAmount
-        "CARD"      | 100   | 2.3
-        "CARD"      | 80    | 1.84
-        "CASH"      | 100   | 2.0
+        paymentType | price || expectedAmount
+        "CARD"      | 100   || 2.3
+        "CARD"      | 80    || 1.84
+        "CASH"      | 100   || 2.0
     }
 
     void "should calculate card payment order commission"() {
