@@ -3,6 +3,8 @@ package io.happy.customer
 import spock.lang.Specification
 import spock.lang.Unroll
 
+import static org.spockframework.util.Assert.that
+
 class OrderCommissionCalculatorTest extends Specification {
 
     def orderCommissionCalculator = new OrderCommissionCalculator()
@@ -29,5 +31,17 @@ class OrderCommissionCalculatorTest extends Specification {
 
         then: "commission should equal to 2.3"
         commissionAmount == 2.3
+    }
+
+    void "should calculate cash payment order commission"() {
+        given:
+        def paymentType = "CASH"
+        def price = 100
+
+        when:
+        def commissionAmount = orderCommissionCalculator.calculate(paymentType, price)
+
+        then:
+        that commissionAmount == 2.0
     }
 }
